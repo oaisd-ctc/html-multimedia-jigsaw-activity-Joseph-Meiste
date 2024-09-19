@@ -1,0 +1,26 @@
+html{ 
+    background:black;
+}
+
+body {
+    display:flex;
+    flex-direction:column;
+    margin: auto;
+    width: 50%;
+    align-items:center;
+}
+
+h1, h2{
+    color:#88D4B5;
+}
+
+audio, video, iframe {
+    border-style:solid;
+    border-color:#88D4B5;
+    border-width:2px;
+}
+
+
+audio{
+    width:644px
+}
