@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="inital-scale=1.0, width=device-width">
+    <title>Multimedia</title>
+    <link rel="stylesheet" href="deco/index.css">
+</head>
+
+<body>
+    <h1>HTML Multimedia Demonstration</h1>
+    <h2>Video Element</h2>
+    <video width="640px" controls>
+        <source src="deco/Raindrops_Videvo.mp4" type="video/mp4">
+        Your browser doesn't support this video
+    </video>
+    <h2>Audio Element</h2>
+    <audio controls>
+        <source src="deco/mixaund-feel.mp3" type="audio/mp3">
+        Your browser doesn't support this video
+    </audio>
+    <h2>Inline Frame Element</h2>
+    <iframe src="https://example.com" alt="example_page" width="640px" height="300px">
+    </iframe>
+    <h2>Canvas Element</h2>
+    <canvas id="myCanvas"></canvas>
+    <h2>SVG Element</h2>
+    <svg width="100px" height="100px">
+        <circle cx="50" cy="50" r="40" stroke="black" stroke-width="4" fill="red" />
+    </svg><br>
+    <svg width="150px" height="100px">
+        <rect width="140" height="90" x="10" y="10" stroke="black" stroke width="4" fill="#008080" />
+    </svg><br>
+    <svg width="170px" height="120px">
+        <ellipse rx="75" ry="50" cx="85" cy="60" stroke="black" stroke-width="4" fill="aquamarine" />
+    </svg><br>
+    <svg width="210" height="110">
+        <line x1="0" y1="0" x2="200" y2="100" stroke="gray" stroke-width="4" />
+    </svg><br>
+    <svg width="200px" height="100">
+        <polygon points="100,5 195,95 5,95" fill=yellow stroke=black stroke-width="4" />
+    </svg><br>
+    <script>
+        const canvas = document.getElementById("myCanvas");
+        const ctx = canvas.getContext("2d");
+        ctx.fillStyle = "#0066A0";
+        ctx.fillRect(0, 0, 150, 75);
+    </script>
+</body>
+
+</html>
